@@ -1,0 +1,23 @@
+{
+  "name": "cse341-project1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/caleb-beardall/cse341-project1#readme",
+  "bugs": {
+    "url": "https://github.com/caleb-beardall/cse341-project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caleb-beardall/cse341-project1.git"
+  },
+  "license": "ISC",
+  "author": "Caleb Beardall",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
