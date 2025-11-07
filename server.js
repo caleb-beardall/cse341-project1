@@ -5,7 +5,6 @@ const mongodb = require('./db/connect');
 const port = process.env.PORT || 3000;
 const app = express();
 
-
 app
     .use(bodyParser.json())
     .use((req, res, next) => {
@@ -14,7 +13,7 @@ app
     })
     .use('/', require('./routes'));
 
-mongodb.initDb((err, mongodb) => {
+mongodb.initDb((err) => {
     if (err) {
         console.log(err);
     } else {
